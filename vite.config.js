@@ -7,11 +7,7 @@ export default defineConfig({
     port: 3000,
   },
   build: {
-    outDir: 'public',
-    rollupOptions: {
-      input: {
-        index: 'public/index.html'
-      }
-    }
-  }
+    target: 'esnext',
+    outDir: 'public'
+  },
 });
