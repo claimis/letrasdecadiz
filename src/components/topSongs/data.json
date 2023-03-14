@@ -1,0 +1,34 @@
+{
+    "top_songs": [
+      {
+        "title": "Driver's License",
+        "artist": "Olivia Rodrigo",
+        "album": "SOUR",
+        "rank": 1
+      },
+      {
+        "title": "Up",
+        "artist": "Cardi B",
+        "album": "Single",
+        "rank": 2
+      },
+      {
+        "title": "34+35",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "rank": 3
+      },
+      {
+        "title": "Save Your Tears",
+        "artist": "The Weeknd & Ariana Grande",
+        "album": "After Hours",
+        "rank": 4
+      },
+      {
+        "title": "Mood",
+        "artist": "24kGoldn feat. iann dior",
+        "album": "El Dorado",
+        "rank": 5
+      }
+    ]
+  }

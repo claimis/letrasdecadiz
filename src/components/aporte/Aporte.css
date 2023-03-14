@@ -1,0 +1,23 @@
+.aporte {
+    height: 300px;
+    width: 100%;
+    background-color:black;
+  }
+
+  .button-aporte {
+    background-color: transparent;
+    width: 330px;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+    border-color: white;
+
+    transition: background-color 1s ease-out 100ms, color  1s ease-out 100ms;
+  }
+
+  .button-aporte:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }

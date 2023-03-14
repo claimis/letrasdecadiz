@@ -1,0 +1,44 @@
+/* .background-nav {
+    background-color: black;
+} */
+
+.char-item {
+    color: white !important;
+    font-size: 18px;
+}
+
+nav {
+
+    color: white;
+    font-size: 18px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: #333333;
+  }
+
+  .based-icon {
+    height: 60px;
+    background-image: url("../../assets/based_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+  }
