@@ -20,11 +20,5 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-async function obtenerAgrupaciones() {
-  const querySnapshot = await getDocs(query(collection(db, "agrupaciones"), limit(20)));
-  querySnapshot.forEach((doc) => {
-    console.log(doc.id, " => ", doc.data());
-  });
-}
+export default db;
 
-obtenerAgrupaciones()
