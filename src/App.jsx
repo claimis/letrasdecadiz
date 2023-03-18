@@ -1,20 +1,35 @@
 import logo from './logo.svg';
 import styles from './App.module.css';
 import Nav from "./components/nav/Nav"
-import Banner from "./components/banner/Banner"
-import TopSongsList from './components/topSongs/TopSongs';
-import Aporte from './components/aporte/Aporte';
+import Home from "./components/home/Home";
+import { Router, Routes, Route, Link } from "solid-app-router";
+import { lazy } from "solid-js";
+
+
+import { collection, getDocs } from "firebase/firestore";
+
+// const querySnapshot = await getDocs(collection(db, "agrupaciones"));
+// querySnaps./hot.forEach((doc) => {
+//   console.log(`${doc.id} => ${doc.data()}`);
+// });
+
+
 function App() {
+
+  const Veri = lazy(() => import("./components/verify/Verify"));
+  const _Home = lazy(() => import("./components/home/Home"));
   return (
     <div class={styles.App}>
       <Nav backcolor="white" iconbuild="true" />
       <Nav backcolor="black" />
+    
+      <Router>
+          <Routes>
+            <Route path="/" element={<_Home/>} />
+            <Route path="/verify" element={<Veri/>} />
+          </Routes>
+      </Router>
 
-      <div class="parent-App">
-        <Banner/>
-        <TopSongsList />
-        <Aporte  />
-      </div>
     </div>
   );
 }
