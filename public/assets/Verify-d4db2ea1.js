@@ -1,0 +1,1 @@
+import{t,i as o,c as i}from"./index-4095bc79.js";const n=t('<div class="header"><h2>Titulo Autor</h2><h3>Título Chirigoti</h3></div>',6);function s(){return n.cloneNode(!0)}const l=t('<div class="class-verify"><div>hola</div></div>',4);function c(){return(()=>{const e=l.cloneNode(!0),r=e.firstChild;return o(e,i(s,{}),r),e})()}export{c as default};
