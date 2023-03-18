@@ -5,10 +5,6 @@ import Home from "./components/home/Home";
 import { Router, Routes, Route, Link } from "solid-app-router";
 import { lazy } from "solid-js";
 
-// const querySnapshot = await getDocs(collection(db, "agrupaciones"));
-// querySnaps./hot.forEach((doc) => {
-//   console.log(`${doc.id} => ${doc.data()}`);
-// });
 
 
 function App() {
