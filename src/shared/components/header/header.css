@@ -6,8 +6,11 @@
     height: 250px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     color: white;
     font-size: 48px;
     text-align: center;
