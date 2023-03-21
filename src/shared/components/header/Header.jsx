@@ -1,12 +1,18 @@
 import "./header.css";
 
-function Header() {
+function Header( props ) {
+    const {headerd} = props
+    const [hdata]= headerd
+    const autores = hdata["autor/es"];
+    const anio = hdata["año"];
+
+    
     return(
         <div class="header">
-            <h2>Titulo Autor</h2>
-            <h3>Título Chirigoti</h3>
+            <h3>{ autores }</h3>
+            <h5>{ anio }</h5>
         </div>
     )
-}
+    }
 
 export default Header;
