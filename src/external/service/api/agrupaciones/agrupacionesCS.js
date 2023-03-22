@@ -1,6 +1,6 @@
 import Controller from "../Controller.js";
 
-export default class agrupacionesCS extends Controller {
+export default class AgrupacionesCS extends Controller {
 
     constructor() {
 
@@ -11,7 +11,7 @@ export default class agrupacionesCS extends Controller {
     }
 
 
-    getAgrupaciones(name, params){
-       return this.viewController.call(this, arguments, name )
+    getAgrupaciones(params){
+       return this.viewController.call(this, arguments, params )
     }
 } 

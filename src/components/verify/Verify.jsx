@@ -1,12 +1,12 @@
 import "./verify.css"
 import Header from "../../shared/components/header/Header";
-import agrupacionesCS from "../../external/service/api/agrupaciones/agrupacionesCS.js";
+import AgrupacionesCS from "../../external/service/api/agrupaciones/AgrupacionesCS.js";
 import { createSignal } from 'solid-js';
 import Loading from "../../shared/components/loading/Loading";
 import { Show } from 'solid-js/web';
 import  PanelVerify from "./components/panel-verify/PanelVerify" ;
 
-const _agrp = new agrupacionesCS()
+const _agrp = new AgrupacionesCS()
 
 function Verify () {
 
@@ -54,7 +54,7 @@ function Verify () {
 
             </div>
             
-            < PanelVerify />
+            {/* < PanelVerify /> */}
         <div>
 
         </div>
